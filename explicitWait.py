@@ -1,3 +1,7 @@
+#Открыть страницу http://suninjuly.github.io/explicit_wait2.html
+#Дождаться, когда цена дома уменьшится до $100 (ожидание нужно установить не меньше 12 секунд)
+#Нажать на кнопку "Book"
+#Решить математическую задачу и отправить решение
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
