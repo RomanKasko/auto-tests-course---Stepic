@@ -5,8 +5,7 @@ try:
     link = "http://suninjuly.github.io/registration1.html"
     browser = webdriver.Chrome()
     browser.get(link)
-
-    # Ваш код, который заполняет обязательные поля
+    
     fName = browser.find_element_by_css_selector("div.first_block input.form-control.first")
     fName.send_keys("Romeo")
     lName = browser.find_element_by_css_selector("div.first_block input.form-control.second")
